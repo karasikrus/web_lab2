@@ -24,7 +24,7 @@
         <h5 class="header col s12 light">Можно будет подудеть</h5>
       </div>
       <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light white-text text-darken-4 pulse">Подудеть!</a>
+        <a href="#input_form" id="download-button" class="btn-large waves-effect waves-light white-text text-darken-4 pulse">Подудеть!</a>
       </div>
       <br><br>
 
@@ -74,13 +74,13 @@
         <img class="responsive-img"  src="https://ozon-st.cdn.ngenix.net/multimedia/1025520234.jpg">
       </div>
       <div class="col s12 m8 teal lighten-1">
-        <h5 class="center teal lighten-1">Наши дудочки</h5>
+        <h5 class="center teal lighten-1 white-text">Наши дудочки</h5>
 
         <p class=" white-text">Изготовлены из высококачественных материалов, отлично лежат в руке и не только. Кристально чистый звук, приятный мундштук, современный внешний вид.</p>
       </div>
     </div>
   </div>
-  <div class="container">
+  <form class="container" id="input_form">
     <div class="row">
       <div class="input-field col s12 m6">
         <input placeholder="Имя" id="name" type="text" class="validate">
@@ -91,7 +91,12 @@
         <label for="text_area">Понравились дудочки?</label>
       </div>
     </div>
-  </div>
+    <div class="row center">
+      <button class="btn waves-effect waves-light" id="submit_button" type="submit" name="action">Отправить
+        <i class="material-icons right">send</i>
+      </button>
+    </div>
+  </form>
 
   <footer class="page-footer teal accent-4">
     <div class="container">
